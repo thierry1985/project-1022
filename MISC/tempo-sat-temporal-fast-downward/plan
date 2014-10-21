@@ -1,0 +1,4 @@
+#! /bin/bash
+
+export PATH=$(dirname "$0")/py2.5/bin:$PATH
+./plan.py $1 $2 $3

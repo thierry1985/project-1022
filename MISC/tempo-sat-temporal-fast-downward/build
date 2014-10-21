@@ -1,0 +1,12 @@
+#! /bin/bash
+
+./build-python
+export PATH=$(dirname "$0")/py2.5/bin:$PATH
+
+cd preprocess
+make || exit 1
+cd ..
+
+cd search
+make || exit 1
+cd ..

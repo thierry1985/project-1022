@@ -1,0 +1,22 @@
+;Span  21
+;Time 32.583046
+
+0:(enter_room floor1 room1a elec2) [1]
+0:(move_lift floor1 floor2 lift2) [2]
+1:(enter_room floor1 room1a elec1) [1]
+1:(light_match match1 elec2 room1a) [8]
+2:(move_lift floor2 floor1 lift2) [2]
+2:(mend_fuse fuse1 match1 room1a elec2) [3]
+2:(mend_fuse fuse2 match1 room1a elec1) [3]
+4:(move_lift floor1 floor2 lift2) [2]
+5:(mend_fuse fuse3 match1 room1a elec1) [3]
+5:(mend_fuse fuse4 match1 room1a elec2) [3]
+6:(move_lift floor2 floor1 lift2) [2]
+7:(exit_room floor1 room1a elec1) [1]
+8:(enter_lift floor1 lift2 elec1) [1]
+9:(move_lift floor1 floor2 lift2) [2]
+11:(exit_lift floor2 lift2 elec1) [1]
+12:(enter_room floor2 room2a elec1) [1]
+13:(light_match match2 elec1 room2a) [8]
+14:(mend_fuse fuse6 match2 room2a elec1) [3]
+17:(mend_fuse fuse5 match2 room2a elec1) [3]

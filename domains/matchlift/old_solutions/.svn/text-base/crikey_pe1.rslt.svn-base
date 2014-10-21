@@ -1,0 +1,40 @@
+Have shown that (light_match match1 elec1 room1a ) is one-shot
+Have shown that (light_match match2 elec1 room1a ) is one-shot
+Have shown that (light_match match3 elec1 room1a ) is one-shot
+Have shown that (light_match match1 elec2 room1a ) is one-shot
+Have shown that (light_match match2 elec2 room1a ) is one-shot
+Have shown that (light_match match3 elec2 room1a ) is one-shot
+Have shown that (light_match match1 elec1 room1b ) is one-shot
+Have shown that (light_match match2 elec1 room1b ) is one-shot
+Have shown that (light_match match3 elec1 room1b ) is one-shot
+Have shown that (light_match match1 elec2 room1b ) is one-shot
+Have shown that (light_match match2 elec2 room1b ) is one-shot
+Have shown that (light_match match3 elec2 room1b ) is one-shot
+Have shown that (light_match match1 elec1 room2a ) is one-shot
+Have shown that (light_match match2 elec1 room2a ) is one-shot
+Have shown that (light_match match3 elec1 room2a ) is one-shot
+Have shown that (light_match match1 elec2 room2a ) is one-shot
+Have shown that (light_match match2 elec2 room2a ) is one-shot
+Have shown that (light_match match3 elec2 room2a ) is one-shot
+Have shown that (light_match match1 elec1 room2b ) is one-shot
+Have shown that (light_match match2 elec1 room2b ) is one-shot
+Have shown that (light_match match3 elec1 room2b ) is one-shot
+Have shown that (light_match match1 elec2 room2b ) is one-shot
+Have shown that (light_match match2 elec2 room2b ) is one-shot
+Have shown that (light_match match3 elec2 room2b ) is one-shot
+SubProblem 0 has goals: 18 19 20
+<<20.000>>(20.000) <<19.000>>b (19.000)<<18.000>>b (18.000)<<17.000>>b (17.000)<<16.000>>b (16.000)<<15.000>>b (15.000)t<<14.000>>b (14.000)<<13.000>>b (13.000)<<12.000>>b (12.000)<<11.000>>b (11.000)t<<10.000>>b (10.000)<<9.000>>b (9.000)t<<8.000>>b (8.000)<<7.000>>b (7.000)t<<6.000>>b (6.000)<<5.000>>b (5.000)tt
+Resorting to best-first search
+b (19.000).........b (18.000)..........b (17.000)t.........b (16.000).........b (15.000)..........b (14.000)........b (13.000).t........tb (12.000).......b (11.000).........b (10.000).........b (9.000)...........b (8.000)............b (7.000)...........tb (6.000).........b (5.000)..t..........tt..........t.........tt..........tt..........tt..........tt........tt.........tt.......tt........tt........ttt.......tt.........ttt.......tt.........tt.........tt...........t..........<<4.000>>b (4.000).t.........tt........ttcd.......ttt.....tt........ttt.....tt........ttt.....tt........ttcd........t...........t.........t..........t........t.........t.........tt.......t........<<3.000>>b (3.000)d..........<<2.000>>b (2.000)cd.......<<1.000>>b (1.000).......<<0.000>>g;;;; Solution Found
+; Time 0.22
+0.001: (enter_room floor1 room1a elec1 ) [1.000]
+0.002: (enter_lift floor1 lift1 elec1 ) [1.000]
+1.003: (move_lift floor1 floor2 lift1 ) [2.000]
+1.004: (light_match match1 elec1 room1a ) [8.000]
+1.005: (mend_fuse fuse1 match1 room1a elec1 ) [5.000]
+3.004: (exit_lift floor2 lift1 elec1 ) [1.000]
+4.005: (enter_room floor2 room2b elec1 ) [1.000]
+5.006: (light_match match2 elec1 room2b ) [8.000]
+6.006: (mend_fuse fuse3 match2 room2b elec1 ) [5.000]
+8.008: (light_match match3 elec1 room1a ) [8.000]
+11.007: (mend_fuse fuse2 match3 room1a elec1 ) [5.000]

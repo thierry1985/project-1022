@@ -1,0 +1,45 @@
+(define (problem P3)
+(:domain P2P)
+(:objects
+        comp1 comp2 comp3  - computer
+        A B C D  - file 
+)
+
+
+(:init
+  (saved comp1 A)
+  (saved comp1 B)
+  (saved comp1 C)
+  (saved comp1 D)
+  (free  comp1  )
+  (free  comp2  )
+  (free  comp3  )
+  (routed comp1 comp2)
+  (routed comp1 comp3)
+  (routed comp2 comp1)
+  (routed comp2 comp3)
+  (routed comp3 comp1)
+  (routed comp3 comp2)
+  (= (file-size A) 8)
+  (= (file-size C) 4)
+  (= (file-size B) 9)
+  (= (file-size D) 9)
+)
+(:goal 
+   (and
+     (saved comp1 A)
+     (saved comp2 A)
+     (saved comp3 A)
+     (saved comp1 B)
+     (saved comp2 B)
+     (saved comp3 B)
+     (saved comp1 C)
+     (saved comp2 C)
+     (saved comp3 C)
+     (saved comp1 D)
+     (saved comp2 D)
+     (saved comp3 D)
+	   )
+)
+(:metric minimize (total-time))
+)

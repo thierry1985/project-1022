@@ -1,0 +1,76 @@
+begin_groups
+15
+group
+1
+7 0 handfree 1 <elec1> 
+group
+1
+8 0 handfree 1 <elec2> 
+group
+8
+0 2 inroom 2 <elec1> <room1a> 
+0 3 inroom 2 <elec1> <room1b> 
+0 4 inroom 2 <elec1> <room2a> 
+0 5 inroom 2 <elec1> <room2b> 
+0 0 inlift 2 <elec1> <lift1> 
+0 1 inlift 2 <elec1> <lift2> 
+0 6 onfloor 2 <elec1> <floor1> 
+0 7 onfloor 2 <elec1> <floor2> 
+group
+8
+1 2 inroom 2 <elec2> <room1a> 
+1 3 inroom 2 <elec2> <room1b> 
+1 4 inroom 2 <elec2> <room2a> 
+1 5 inroom 2 <elec2> <room2b> 
+1 0 inlift 2 <elec2> <lift1> 
+1 1 inlift 2 <elec2> <lift2> 
+1 6 onfloor 2 <elec2> <floor1> 
+1 7 onfloor 2 <elec2> <floor2> 
+group
+2
+5 0 liftonfloor 2 <lift1> <floor1> 
+5 1 liftonfloor 2 <lift1> <floor2> 
+group
+2
+6 0 liftonfloor 2 <lift2> <floor1> 
+6 1 liftonfloor 2 <lift2> <floor2> 
+group
+5
+2 4 unused 1 <match1> 
+2 0 light 2 <match1> <room1a> 
+2 1 light 2 <match1> <room1b> 
+2 2 light 2 <match1> <room2a> 
+2 3 light 2 <match1> <room2b> 
+group
+1
+2 4 unused 1 <match1> 
+group
+5
+3 4 unused 1 <match2> 
+3 0 light 2 <match2> <room1a> 
+3 1 light 2 <match2> <room1b> 
+3 2 light 2 <match2> <room2a> 
+3 3 light 2 <match2> <room2b> 
+group
+1
+3 4 unused 1 <match2> 
+group
+5
+4 4 unused 1 <match3> 
+4 0 light 2 <match3> <room1a> 
+4 1 light 2 <match3> <room1b> 
+4 2 light 2 <match3> <room2a> 
+4 3 light 2 <match3> <room2b> 
+group
+1
+4 4 unused 1 <match3> 
+group
+1
+11 0 mended 1 <fuse3> 
+group
+1
+9 0 mended 1 <fuse1> 
+group
+1
+10 0 mended 1 <fuse2> 
+end_groups

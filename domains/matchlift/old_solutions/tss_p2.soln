@@ -1,0 +1,10 @@
+;Span  9
+;Time 1.470776
+
+0:(enter_room floor1 room1b elec1) [1]
+1:(enter_room floor1 room1a elec2) [1]
+1:(light_match match1 elec1 room1b) [8]
+2:(exit_room floor1 room1a elec2) [1]
+3:(enter_room floor1 room1b elec2) [1]
+4:(mend_fuse fuse1 match1 room1b elec2) [5]
+4:(mend_fuse fuse2 match1 room1b elec1) [5]

@@ -1,0 +1,51 @@
+;LINEAR TOPOLOGY SETTING
+(define (problem P3)
+(:domain P2P)
+(:objects
+        comp1 comp2 comp3 comp4  - computer
+        file0 file1 file2 file3  - file 
+)
+
+
+(:init
+  (saved comp1 file0)
+  (saved comp4 file1)
+  (saved comp1 file2)
+  (saved comp4 file3)
+  (free  comp1  )
+  (free  comp2  )
+  (free  comp3  )
+  (free  comp4  )
+  (routed comp1 comp2)
+  (routed comp2 comp1)
+  (routed comp2 comp3)
+  (routed comp3 comp2)
+  (routed comp3 comp4)
+  (routed comp4 comp3)
+  (= (file-size file3) 5)
+  (= (file-size file2) 6)
+  (= (file-size file1) 7)
+  (= (file-size file0) 6)
+)
+(:goal 
+   (and
+     (saved comp1 file0)
+     (saved comp2 file0)
+     (saved comp3 file0)
+     (saved comp4 file0)
+     (saved comp1 file1)
+     (saved comp2 file1)
+     (saved comp3 file1)
+     (saved comp4 file1)
+     (saved comp1 file2)
+     (saved comp2 file2)
+     (saved comp3 file2)
+     (saved comp4 file2)
+     (saved comp1 file3)
+     (saved comp2 file3)
+     (saved comp3 file3)
+     (saved comp4 file3)
+	   )
+)
+(:metric minimize (total-time))
+)

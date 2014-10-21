@@ -1,0 +1,35 @@
+#!/bin/sh
+
+die () {
+   echo "*** mkconfig: $*" 1>&2
+   exit 1
+}
+
+[ -f makefile ] || die "can not find 'makefile'"
+
+if [ ! x"`grep '^CXX=g++$' makefile`" =  x ]
+then
+patchgccversion="`g++ --version|head -1`"
+patchgccversion="s,\"g++\",\"$patchgccversion\","
+elif [ ! x"`grep '^CXX=gcc$' makefile`" =  x ]
+then
+patchgccversion="`gcc --version|head -1`"
+patchgccversion="s,\"gcc\",\"$patchgccversion\","
+else
+patchgccversion="s,DUMMY,DUMMY,"
+fi
+
+sed \
+  -e '/^C[A-Z]*=/!d' \
+  -e 's,^,#define PRECOSAT_,' \
+  -e 's,= *, ",' \
+  -e 's,$,",' \
+  makefile | sed -e "$patchgccversion"
+
+echo "#define PRECOSAT_OS \"`uname -srmn`\""
+echo "#define PRECOSAT_COMPILED \"`date`\""
+cat<<EOF
+#define PRECOSAT_RELEASED "Thu Jul  9 17:46:36 CEST 2009"
+#define PRECOSAT_VERSION "236"
+#define PRECOSAT_ID "3e7a3f8825c0b9e241f38a63fee5517540b2feca"
+EOF

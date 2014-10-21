@@ -1,0 +1,2058 @@
+c
+c reading CNF_9607
+c found header 'p cnf 472 2899'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       0 MB
+c sizeof     orgs[0] = 16   alignment = 0       0 MB
+c sizeof     occs[0] = 16   alignment = 0       0 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0      632     188    284     0      0       0      0    0.0   0    0
+c 0    0.0      632     176    296     0      0       1      0    0.0   0    0
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 296 fixed, 0 equiv, 0 elim, 0 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 0 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 296 propagations, 0.30 megaprops
+c
+c 0.0 seconds, 0 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 1524 6538'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      0 MB
+c sizeof     orgs[0] = 16   alignment = 0       0 MB
+c sizeof     occs[0] = 16   alignment = 0       0 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0     2268    1040    408    76      0       0      0    0.0   0    0
+c 0    0.0     2268     709    801    14      0       1      0    0.0   0    0
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 801 fixed, 14 equiv, 0 elim, 76 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 76 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 801 propagations, 0.27 megaprops
+c
+c 0.0 seconds, 0 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 3156 10177'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      0 MB
+c sizeof     orgs[0] = 16   alignment = 0       0 MB
+c sizeof     occs[0] = 16   alignment = 0       0 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0     4055    2524    484   148      0       0      0    0.0   0    1
+c 0    0.0     4055    1985   1141    30      0       1      0    0.0   0    1
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 1141 fixed, 30 equiv, 0 elim, 148 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 148 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 1141 propagations, 0.14 megaprops
+c
+c 0.0 seconds, 1 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 5368 13816'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      0 MB
+c sizeof     orgs[0] = 16   alignment = 0       0 MB
+c sizeof     occs[0] = 16   alignment = 0       0 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0     5842    4588    560   220      0       0      0    0.0   0    1
+c 0    0.0     5842    3935   1331   102      0       1      0    0.0   0    1
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 1331 fixed, 102 equiv, 0 elim, 220 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 220 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 1331 propagations, 0.19 megaprops
+c
+c 0.0 seconds, 1 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 8192 18047'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       0 MB
+c sizeof     orgs[0] = 16   alignment = 0       0 MB
+c sizeof     occs[0] = 16   alignment = 0       0 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0     8239    7270    628   294      0       0      0    0.0   0    2
+c 0    0.0     8239    6432   1590   170      0       1      0    0.0   0    2
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 1590 fixed, 170 equiv, 0 elim, 294 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 294 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 1590 propagations, 0.12 megaprops
+c
+c 0.0 seconds, 2 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 11628 22310'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      0 MB
+c sizeof     orgs[0] = 16   alignment = 0       0 MB
+c sizeof     occs[0] = 16   alignment = 0       0 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0    10668   10566    696   366      0       0      0    0.0   0    2
+c 0    0.0    10668    9318   2146   164      0       1      0    0.0   0    2
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 2146 fixed, 164 equiv, 0 elim, 366 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 366 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 2146 propagations, 0.15 megaprops
+c
+c 0.0 seconds, 3 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 15676 26605'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      0 MB
+c sizeof     orgs[0] = 16   alignment = 0       0 MB
+c sizeof     occs[0] = 16   alignment = 0       0 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0    13129   14474    764   438      0       0      0    0.0   0    3
+c 0    0.0    13129   13008   2458   210      0       1      0    0.0   0    3
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 2458 fixed, 210 equiv, 0 elim, 438 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 438 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 2458 propagations, 0.15 megaprops
+c
+c 0.0 seconds, 3 MB max, 0 MB recycled
+Parsing...
+Instantiating...
+Trivial rules: Converted to facts.
+Starting instantiation [81 rules]...
+Finding invariants...
+Instantiating groups...
+Choosing groups...
+58 uncovered facts
+Building translation key...
+Building STRIPS to SAS dictionary...
+Translating task...
+Processing axioms...
+Encoding Constant Initilized!
+Solving with make span: 1
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                66
+Encoding transitions => actions...      66
+Transition Mutex...                     246
+Encoding required action mutexes...     2899
+Encoding self-mutexes...                2899
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 2
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                314
+Encoding transitions => actions...      724
+Transition Mutex...                     1084
+Encoding required action mutexes...     6390
+Encoding self-mutexes...                6538
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 3
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                562
+Encoding transitions => actions...      1382
+Transition Mutex...                     1922
+Encoding required action mutexes...     9881
+Encoding self-mutexes...                10177
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 4
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                810
+Encoding transitions => actions...      2040
+Transition Mutex...                     2760
+Encoding required action mutexes...     13372
+Encoding self-mutexes...                13816
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 5
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                1410
+Encoding transitions => actions...      3050
+Transition Mutex...                     3950
+Encoding required action mutexes...     17215
+Encoding self-mutexes...                18047
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 6
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                2010
+Encoding transitions => actions...      4060
+Transition Mutex...                     5140
+Encoding required action mutexes...     21058
+Encoding self-mutexes...                22278
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 7
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                2610
+Encoding transitions => actions...      5070
+Transition Mutex...                     6330
+Encoding required action mutexes...     24901
+Encoding self-mutexes...                26509
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 8
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                5130
+Encoding transitions => actions...      8000
+Transition Mutex...                     9440
+Encoding required action mutexes...     30664
+Encoding self-mutexes...        c
+c reading CNF_9607
+c found header 'p cnf 20464 32916'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      0 MB
+c sizeof     orgs[0] = 16   alignment = 0       0 MB
+c sizeof     occs[0] = 16   alignment = 0       0 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0    19374   19190    764   510      0       0      0    0.0   0    4
+c 0    0.0    19374   17834   2384   246      0       1      0    0.0   0    4
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 2384 fixed, 246 equiv, 0 elim, 510 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 510 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 2384 propagations, 0.10 megaprops
+c
+c 0.0 seconds, 5 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 25992 39355'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       1 MB
+c sizeof     orgs[0] = 16   alignment = 0       0 MB
+c sizeof     occs[0] = 16   alignment = 0       0 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0    25749   24646    764   582      0       0      0    0.0   0    6
+c 0    0.0    25749   22839   2869   284      0       1      0    0.0   0    6
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 2869 fixed, 284 equiv, 0 elim, 582 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 582 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 2869 propagations, 0.07 megaprops
+c
+c 0.0 seconds, 6 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 32260 45922'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 0       1 MB
+c sizeof     orgs[0] = 16   alignment = 0       0 MB
+c sizeof     occs[0] = 16   alignment = 0       0 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0    32252   30842    764   654      0       0      0    0.0   0    7
+c 0    0.0    32252   28682   3254   324      0       1      0    0.0   0    7
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 3254 fixed, 324 equiv, 0 elim, 654 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 654 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 3254 propagations, 0.07 megaprops
+c
+c 0.0 seconds, 7 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 39268 52617'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       1 MB
+c sizeof     orgs[0] = 16   alignment = 0       1 MB
+c sizeof     occs[0] = 16   alignment = 0       1 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.0 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.0    38883   37778    764   726      0       0      0    0.0   0    9
+c 0    0.0    38883   35304   3584   380      0       1      0    0.0   0    9
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 3584 fixed, 380 equiv, 0 elim, 726 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 726 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 3584 propagations, 0.08 megaprops
+c
+c 0.0 seconds, 9 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 47016 59440'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       1 MB
+c sizeof     orgs[0] = 16   alignment = 0       1 MB
+c sizeof     occs[0] = 16   alignment = 0       1 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.1 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.1    45642   45454    764   798      0       0      0    0.0   0   10
+c 0    0.1    45642   42648   3940   428      0       1      0    0.0   0   10
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 3940 fixed, 428 equiv, 0 elim, 798 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 798 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 3940 propagations, 0.06 megaprops
+c
+c 0.1 seconds, 10 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 55504 66391'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       1 MB
+c sizeof     orgs[0] = 16   alignment = 0       1 MB
+c sizeof     occs[0] = 16   alignment = 0       1 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.1 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.1    52529   53870    764   870      0       0      0    0.0   0   12
+c 0    0.1    52529   50782   4230   492      0       1      0    0.0   0   12
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 4230 fixed, 492 equiv, 0 elim, 870 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 870 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 4230 propagations, 0.06 megaprops
+c
+c 0.1 seconds, 12 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 64732 73470'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      1 MB
+c sizeof     orgs[0] = 16   alignment = 0       1 MB
+c sizeof     occs[0] = 16   alignment = 0       1 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       0 MB
+c
+c starting search after 0.1 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.1    59544   63026    764   942      0       0      0    0.0   0   13
+c 0    0.1    59544   59778   4390   564      0       1      0    0.0   0   13
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 4390 fixed, 564 equiv, 0 elim, 942 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 942 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 4390 propagations, 0.05 megaprops
+c
+c 0.1 seconds, 13 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 74700 80549'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       2 MB
+c sizeof     orgs[0] = 16   alignment = 0       1 MB
+c sizeof     occs[0] = 16   alignment = 0       1 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       1 MB
+c
+c starting search after 0.1 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.1    66623   72922    764  1014      0       0      0    0.0   0   15
+c 0    0.1    66623   69398   4666   636      0       1      0    0.0   0   15
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 4666 fixed, 636 equiv, 0 elim, 1014 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 1014 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 4666 propagations, 0.05 megaprops
+c
+c 0.1 seconds, 15 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 85408 87628'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      2 MB
+c sizeof     orgs[0] = 16   alignment = 0       1 MB
+c sizeof     occs[0] = 16   alignment = 0       1 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       1 MB
+c
+c starting search after 0.1 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.1    73702   83558    764  1086      0       0      0    0.0   0   18
+c 0    0.1    73702   80024   4676   708      0       1      0    0.0   0   18
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 4676 fixed, 708 equiv, 0 elim, 1086 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 1086 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 4676 propagations, 0.04 megaprops
+c
+c 0.1 seconds, 19 MB max, 0 MB recycled
+        32724
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 9
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                7650
+Encoding transitions => actions...      10930
+Transition Mutex...                     12550
+Encoding required action mutexes...     36427
+Encoding self-mutexes...                38939
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 10
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                10170
+Encoding transitions => actions...      13860
+Transition Mutex...                     15660
+Encoding required action mutexes...     42190
+Encoding self-mutexes...                45154
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 11
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                12690
+Encoding transitions => actions...      16790
+Transition Mutex...                     18770
+Encoding required action mutexes...     47953
+Encoding self-mutexes...                51369
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 12
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                15210
+Encoding transitions => actions...      19720
+Transition Mutex...                     21880
+Encoding required action mutexes...     53716
+Encoding self-mutexes...                57584
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 13
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                17730
+Encoding transitions => actions...      22650
+Transition Mutex...                     24990
+Encoding required action mutexes...     59479
+Encoding self-mutexes...                63799
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 14
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                20250
+Encoding transitions => actions...      25580
+Transition Mutex...                     28100
+Encoding required action mutexes...     65242
+Encoding self-mutexes...                70014
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 15
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                22770
+Encoding transitions => actions...      28510
+Transition Mutex...                     31210
+Encoding required action mutexes...     71005
+Encoding self-mutexes...                76229
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 16
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                25290
+Encoding transitions => actions...      31440
+Transition Mutex...                     34320
+Encoding required action mutexes...     76768
+Encoding self-mutexes...                82444
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 17
+Encodc
+c reading CNF_9607
+c found header 'p cnf 96856 94707'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      2 MB
+c sizeof     orgs[0] = 16   alignment = 0       1 MB
+c sizeof     occs[0] = 16   alignment = 0       1 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       1 MB
+c
+c starting search after 0.1 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.1    80781   94934    764  1158      0       0      0    0.0   0   20
+c 0    0.1    80781   91310   4766   780      0       1      0    0.0   0   20
+c
+s UNSATISFIABLE
+c
+c 1 conflicts, 0 decisions, 0 random
+c 0 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 0 shrunken, 0 rescored, 0 rebiased
+c 0 simplifications, 0 reductions
+c
+c vars: 4766 fixed, 780 equiv, 0 elim, 1158 merged
+c elim: 0 resolutions, 0 phases, 0 rounds
+c sbst: 0% substituted, 0.0% nots, 0.0% ands, 0.0% xors, 0.0% ites
+c arty: 0.00 and 0.00 xor average arity
+c prbe: 0 probed, 0 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 1158 merged
+c mins: 0 learned, 0% deleted, 0 strong, 0 depth
+c subs: 0 forward, 0 backward, 0 doms
+c strs: 0 forward, 0 backward
+c doms: 0 dominators, 0 high, 0 low
+c prps: 4766 propagations, 0.04 megaprops
+c
+c 0.1 seconds, 20 MB max, 0 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 109044 101786'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 0       2 MB
+c sizeof     orgs[0] = 16   alignment = 0       2 MB
+c sizeof     occs[0] = 16   alignment = 0       2 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       1 MB
+c
+c starting search after 0.1 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.1    87860  107050    764  1230      0       0      0    0.0   0   21
+c -    0.4    56450    2975   4688   940 100441       0   1000    0.0   0   29
+c s    0.5    37781    2643   4688   940 100773       0      0    0.0   0   19
+c l    0.5    37781    2643   4688   940 100773       0   5975    0.0   0   19
+c 0    0.5    37908    2275   5056   940 100773      12      9    6.1   0   19
+c
+s UNSATISFIABLE
+c
+c 12 conflicts, 18 decisions, 1 random
+c 1 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 247 shrunken, 0 rescored, 0 rebiased
+c 1 simplifications, 0 reductions
+c
+c vars: 5056 fixed, 940 equiv, 100773 elim, 1318 merged
+c elim: 135011 resolutions, 1 phases, 1 rounds
+c sbst: 1% substituted, 5.5% nots, 94.5% ands, 0.0% xors, 0.0% ites
+c arty: 3.41 and 0.00 xor average arity
+c prbe: 1450 probed, 1 phases, 0 rounds
+c prbe: 0 failed, 16 lifted, 4 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 16 units, 1314 merged
+c mins: 75 learned, 4% deleted, 1 strong, 4 depth
+c subs: 1346 forward, 354 backward, 358 doms
+c strs: 1679 forward, 0 backward
+c doms: 3086 dominators, 72 high, 8 low
+c prps: 416042 propagations, 0.87 megaprops
+c
+c 0.5 seconds, 30 MB max, 4 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 121972 108865'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 0       3 MB
+c sizeof     orgs[0] = 16   alignment = 0       2 MB
+c sizeof     occs[0] = 16   alignment = 0       2 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       1 MB
+c
+c starting search after 0.1 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.1    94939  119906    764  1302      0       0      0    0.0   0   23
+c s    0.5    43613    3067   4672   988 113245       0      0    0.0   0   21
+c l    0.5    43613    3067   4672   988 113245       0   7255    0.0   0   21
+c 0    0.6    44536    1800   5927  1000 113245     179    156   29.2   2   21
+c
+s UNSATISFIABLE
+c
+c 179 conflicts, 677 decisions, 1 random
+c 12 iterations, 0 restarts, 0 skipped
+c 0 enlarged, 135 shrunken, 1 rescored, 0 rebiased
+c 1 simplifications, 0 reductions
+c
+c vars: 5927 fixed, 1000 equiv, 113245 elim, 1380 merged
+c elim: 162678 resolutions, 1 phases, 1 rounds
+c sbst: 1% substituted, 4.8% nots, 95.2% ands, 0.0% xors, 0.0% ites
+c arty: 3.35 and 0.00 xor average arity
+c prbe: 1264 probed, 1 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 7 units, 1380 merged
+c mins: 4354 learned, 21% deleted, 1 strong, 20 depth
+c subs: 1395 forward, 187 backward, 360 doms
+c strs: 1946 forward, 0 backward
+c doms: 2945 dominators, 333 high, 20 low
+c prps: 484610 propagations, 0.87 megaprops
+c
+c 0.6 seconds, 33 MB max, 4 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 135640 115944'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       3 MB
+c sizeof     orgs[0] = 16   alignment = 0       2 MB
+c sizeof     occs[0] = 16   alignment = 0       2 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       1 MB
+c
+c starting search after 0.2 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.2   102018  133502    764  1374      0       0      0    0.0   0   26
+c s    0.6    53071    3468   4672  1060 126440       0      0    0.0   0   25
+c l    0.6    53071    3468   4672  1060 126440       0   8775    0.0   0   25
+c R    0.7    53083    3468   4672  1060 126440     105    105   35.4   4   25
+c R    0.7    53115    3467   4672  1061 126440     207    207   61.2   2   25
+c B    0.8    53778    3382   4754  1064 126440    1000    970   61.2   2   26
+c B    1.0    58889    3289   4757  1154 126440    2002   1933   55.9   2   26
+c 0    1.0    61014    2807   5256  1137 126440    2391   2279   50.5   3   27
+c
+s UNSATISFIABLE
+c
+c 2391 conflicts, 7386 decisions, 8 random
+c 19 iterations, 15 restarts, 0 skipped
+c 0 enlarged, 164 shrunken, 23 rescored, 2 rebiased
+c 1 simplifications, 0 reductions
+c
+c vars: 5256 fixed, 1137 equiv, 126440 elim, 1533 merged
+c elim: 184681 resolutions, 1 phases, 1 rounds
+c sbst: 1% substituted, 4.3% nots, 95.7% ands, 0.0% xors, 0.0% ites
+c arty: 3.28 and 0.00 xor average arity
+c prbe: 2907 probed, 2 phases, 0 rounds
+c prbe: 1 failed, 0 lifted, 2 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 0 units, 1531 merged
+c mins: 121845 learned, 12% deleted, 7 strong, 22 depth
+c subs: 1430 forward, 217 backward, 3059 doms
+c strs: 2002 forward, 0 backward
+c doms: 6190 dominators, 2361 high, 46 low
+c prps: 2053325 propagations, 2.04 megaprops
+c
+c 1.0 seconds, 38 MB max, 5 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 150048 123023'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       3 MB
+c sizeof     orgs[0] = 16   alignment = 0       2 MB
+c sizeof     occs[0] = 16   alignment = 0       2 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       1 MB
+c
+c starting search after 0.1 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.2   109097  147838    764  1446      0       0      0    0.0   0   28
+c s    0.7    61574    3879   4672  1120 140377       0      0    0.0   0   29
+c l    0.7    61574    3879   4672  1120 140377       0  10045    0.0   0   29
+c R    0.7    61770    3879   4672  1120 140377     100    100   38.5   3   29
+c R    0.7    61869    3879   4672  1120 140377     202    202   42.7   2   29
+c B    0.8    62738    3744   4805  1122 140377    1000    980   70.1   3   30
+c R    0.9    68806    3615   4886  1170 140377    1941   1886   64.3   3   31
+c B    0.9    69492    3615   4886  1170 140377    2000   1943   63.7   2   31
+c 0    1.1    85512    2793   5672  1206 140377    3028   2927   57.3   2   32
+c
+s UNSATISFIABLE
+c
+c 3028 conflicts, 11201 decisions, 11 random
+c 13 iterations, 19 restarts, 0 skipped
+c 0 enlarged, 153 shrunken, 29 rescored, 2 rebiased
+c 1 simplifications, 0 reductions
+c
+c vars: 5672 fixed, 1206 equiv, 140377 elim, 1591 merged
+c elim: 209052 resolutions, 1 phases, 1 rounds
+c sbst: 1% substituted, 3.9% nots, 96.1% ands, 0.0% xors, 0.0% ites
+c arty: 3.24 and 0.00 xor average arity
+c prbe: 2700 probed, 2 phases, 0 rounds
+c prbe: 0 failed, 0 lifted, 2 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 32 units, 1589 merged
+c mins: 150658 learned, 18% deleted, 1 strong, 28 depth
+c subs: 1523 forward, 428 backward, 15811 doms
+c strs: 1625 forward, 0 backward
+c doms: 20448 dominators, 15191 high, 23 low
+c prps: 2167256 propagations, 1.91 megaprops
+c
+c 1.1 seconds, 44 MB max, 5 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 165196 130102'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      4 MB
+c sizeof     orgs[0] = 16   alignment = 0       3 MB
+c sizeof     occs[0] = 16   alignment = 0       3 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       1 MB
+c
+c starting search after 0.2 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.2   116176  162914    764  1518      0       0      0    0.0   0   30
+c s    0.7    70100    4280   4672  1192 155052       0      0    0.0   0   31
+c l    0.7    70100    4280   4672  1192 155052       0  11727    0.0   0   31
+c R    0.8    70473    4280   4672  1192 155052     100    100   55.8   2   32
+c R    0.8    71715    4183   4753  1208 155052     680    646   81.5   3   32
+c B    0.9    72177    4182   4753  1209 155052    1001    963   80.4   2   32
+c R    0.9    72370    4181   4753  1210 155052    1286   1244   76.1   2   33
+c B    1.1    78229    4060   4838  1246 155052    2001   1931   75.3   3   33
+c s    1.5    75037    3961   4886  1297 155052    3981   3759   60.6   3   33
+c -    1.5    75037    3961   4886  1297 155052    3981   9382   60.6   3   33
+c R    1.7    75794    3961   4886  1297 155052    5034   4792   55.2   3   33
+c 0    2.0   104443    2780   6027  1337 155052    6234   5937   50.4   2   37
+c
+s UNSATISFIABLE
+c
+c 6234 conflicts, 20317 decisions, 14 random
+c 17 iterations, 38 restarts, 0 skipped
+c 0 enlarged, 158 shrunken, 61 rescored, 5 rebiased
+c 2 simplifications, 0 reductions
+c
+c vars: 6027 fixed, 1337 equiv, 155052 elim, 1755 merged
+c elim: 231912 resolutions, 1 phases, 1 rounds
+c sbst: 1% substituted, 3.6% nots, 96.4% ands, 0.0% xors, 0.0% ites
+c arty: 3.19 and 0.00 xor average arity
+c prbe: 5886 probed, 4 phases, 0 rounds
+c prbe: 32 failed, 4 lifted, 0 merged
+c sccs: 0 non trivial, 0 fixed, 0 merged
+c hash: 5 units, 1755 merged
+c mins: 259309 learned, 21% deleted, 6 strong, 20 depth
+c subs: 1473 forward, 716 backward, 17043 doms
+c strs: 1632 forward, 0 backward
+c doms: 23549 dominators, 15356 high, 50 low
+c prps: 4766930 propagations, 2.41 megaprops
+c
+c 2.0 seconds, 48 MB max, 6 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 181084 137181'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       4 MB
+c sizeof     orgs[0] = 16   alignment = 0       3 MB
+c sizeof     occs[0] = 16   alignment = 0       3 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       1 MB
+c
+c starting search after 0.2 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.2   123255  178730    764  1590      0       0      0    0.0   0   32
+c s    0.8    77049    4686   4672  1258 170468       0      0    0.0   0   34
+c l    0.8    77049    4686   4672  1258 170468       0  12966    0.0   0   34
+c R    0.8    77330    4686   4672  1258 170468     101    101   58.0   2   34
+c R    0.9    77897    4684   4673  1259 170468     325    314   84.1   2   34
+c B    1.0    79749    4649   4708  1259 170468    1000    959   98.2   2   36
+c B    1.2    90848    4426   4880  1310 170468    2003   1932   91.0   3   37
+c R    1.3    94576    4426   4880  1310 170468    2641   2550   81.0   4   37
+c R    1.6   107832    4400   4892  1324 170468    4245   4099   73.4   3   39
+c s    1.8    85731    4400   4892  1324 170468    4549   4283   71.7   3   37
+c -    1.8    85731    4400   4892  1324 170468    4549  10892   71.7   3   37
+c B    2.5   114205    4324   4892  1400 170468    8007   7649   60.7   1   40
+c R    2.5   114682    4324   4892  1400 170468    8269   7899   60.0   2   40
+c 0    2.7   116468    2190   7026  1400 170468    9101   8695   57.6   2   41
+c
+s UNSATISFIABLE
+c
+c 9101 conflicts, 29824 decisions, 21 random
+c 13 iterations, 43 restarts, 0 skipped
+c 0 enlarged, 162 shrunken, 89 rescored, 6 rebiased
+c 2 simplifications, 0 reductions
+c
+c vars: 7026 fixed, 1400 equiv, 170468 elim, 1786 merged
+c elim: 260702 resolutions, 1 phases, 1 rounds
+c sbst: 1% substituted, 3.3% nots, 96.7% ands, 0.0% xors, 0.0% ites
+c arty: 3.16 and 0.00 xor average arity
+c prbe: 9020 probed, 5 phases, 1 rounds
+c prbe: 16 failed, 0 lifted, 0 merged
+c sccs: 6 non trivial, 0 fixed, 6 merged
+c hash: 3 units, 1780 merged
+c mins: 437096 learned, 21% deleted, 2 strong, 20 depth
+c subs: 1573 forward, 1292 backward, 22151 doms
+c strs: 1656 forward, 0 backward
+c doms: 29672 dominators, 20430 high, 53 low
+c prps: 6790815 propagations, 2.54 megaprops
+c
+c 2.7 seconds, 53 MB max, 6 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 197712 144260'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       5 MB
+c sizeof     orgs[0] = 16   alignment = 0       3 MB
+c sizeof     occs[0] = 16   alignment = 0       3 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       2 MB
+c
+c starting search after 0.2 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.2   130334  195286    764  1662      0       0      0    0.0   0   35
+c s    0.9    85571    5093   4672  1324 186623       0      0    0.0   0   37
+c l    0.9    85571    5093   4672  1324 186623       0  14674    0.0   0   37
+c R    0.9    86176    5093   4672  1324 186623     103    103   52.7   2   37
+c R    1.0    86929    5085   4680  1324 186623     516    502   73.9   3   38
+c B    1.0    88308    5054   4710  1325 186623    1000    968   79.9   2   38
+c B    1.3   101940    4896   4836  1357 186623    2000   1928   82.7   2   40
+c R    1.4   102105    4896   4836  1357 186623    2343   2267   84.0   2   40
+c s    2.0    98900    4819   4897  1373 186623    5649   5309   93.2   2   40
+c -    2.0    98900    4819   4897  1373 186623    5649  12767   93.2   2   40
+c R    2.3   113750    4809   4898  1382 186623    7622   7218   89.4   2   43
+c B    2.4   114074    4809   4898  1382 186623    8006   7601   90.7   3   43
+c s    3.5   129848    4611   4898  1450 186753   11075   5327   90.8   2   42
+c -    3.5   129848    4611   4898  1450 186753   11075  12640   90.8   2   42
+c R    3.6   130227    4611   4898  1450 186753   11630   5881   94.8   3   43
+c +    3.8   130647    4611   4898  1450 186753   12640  13904   92.2   2   44
+c +    4.3   136106    4609   4900  1450 186753   15804  15294   86.6   1   45
+c 0    4.6   148098    3323   6183  1453 186753   16713  10860   84.3   1   48
+c
+s UNSATISFIABLE
+c
+c 16713 conflicts, 55963 decisions, 34 random
+c 19 iterations, 81 restarts, 0 skipped
+c 2 enlarged, 493 shrunken, 163 rescored, 10 rebiased
+c 3 simplifications, 0 reductions
+c
+c vars: 6183 fixed, 1453 equiv, 186753 elim, 1856 merged
+c elim: 523562 resolutions, 2 phases, 2 rounds
+c sbst: 1% substituted, 2.7% nots, 97.3% ands, 0.0% xors, 0.0% ites
+c arty: 3.01 and 0.00 xor average arity
+c prbe: 10952 probed, 9 phases, 1 rounds
+c prbe: 96 failed, 40 lifted, 1 merged
+c sccs: 12 non trivial, 0 fixed, 12 merged
+c hash: 4 units, 1843 merged
+c mins: 1168969 learned, 16% deleted, 7 strong, 27 depth
+c subs: 2079 forward, 2435 backward, 16651 doms
+c strs: 5292 forward, 6 backward
+c doms: 26213 dominators, 15576 high, 82 low
+c prps: 11790431 propagations, 2.57 megaprops
+c
+c 4.6 seconds, 58 MB max, 9 MB recycled
+ing init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                27810
+Encoding transitions => actions...      34370
+Transition Mutex...                     37430
+Encoding required action mutexes...     82531
+Encoding self-mutexes...                88659
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 18
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                30330
+Encoding transitions => actions...      37300
+Transition Mutex...                     40540
+Encoding required action mutexes...     88294
+Encoding self-mutexes...                94874
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 19
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                32850
+Encoding transitions => actions...      40230
+Transition Mutex...                     43650
+Encoding required action mutexes...     94057
+Encoding self-mutexes...                101089
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 20
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                35370
+Encoding transitions => actions...      43160
+Transition Mutex...                     46760
+Encoding required action mutexes...     99820
+Encoding self-mutexes...                107304
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 21
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                37890
+Encoding transitions => actions...      46090
+Transition Mutex...                     49870
+Encoding required action mutexes...     105583
+Encoding self-mutexes...                113519
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 22
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                40410
+Encoding transitions => actions...      49020
+Transition Mutex...                     52980
+Encoding required action mutexes...     111346
+Encoding self-mutexes...                119734
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 23
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                42930
+Encoding transitions => actions...      51950
+Transition Mutex...                     56090
+Encoding required action mutexes...     117109
+Encoding self-mutexes...                125949
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 24
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                45450
+Encoding transitions => actions...      54880
+Transition Mutex...                     59200
+Encoding required action mutexes...     122872
+Encoding self-mutexes...                132164
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 25
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regressic
+c reading CNF_9607
+c found header 'p cnf 215080 151339'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      5 MB
+c sizeof     orgs[0] = 16   alignment = 0       3 MB
+c sizeof     occs[0] = 16   alignment = 0       3 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       2 MB
+c
+c starting search after 0.2 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.2   137413  212582    764  1734      0       0      0    0.0   0   37
+c s    1.0    94818    5500   4672  1388 203520       0      0    0.0   0   39
+c l    1.0    94818    5500   4672  1388 203520       0  16006    0.0   0   39
+c R    1.0    95223    5500   4672  1388 203520     100     99   39.5   2   40
+c R    1.0    95419    5500   4672  1388 203520     200    199  105.6   4   40
+c B    1.1    96999    5340   4822  1398 203520    1000    945  116.5   4   40
+c B    1.3   100592    5228   4904  1428 203520    2000   1916  129.7   3   41
+c R    1.6   116105    5220   4905  1435 203520    3235   3120  119.8   4   43
+c R    1.9   122784    5218   4905  1437 203520    4837   4683  120.3   3   45
+c s    2.2   111429    5218   4905  1437 203520    5410   5167  128.6   1   44
+c -    2.2   111429    5218   4905  1437 203520    5410  14246  128.6   1   44
+c B    2.7   121534    5168   4906  1486 203520    8004   7689  112.7   3   46
+c R    2.8   122073    5168   4906  1486 203520    8852   8518  107.5   2   46
+c s    4.1   143800    5003   4906  1514 203657   12295   6242   96.4   2   46
+c -    4.1   143800    5003   4906  1514 203657   12295  13962   96.4   2   46
+c +    4.4   146287    5003   4906  1514 203657   13963  15358   94.8   2   47
+c +    5.1   152750    5003   4906  1514 203657   17450  16893   91.2   1   52
+c R    5.3   153383    5003   4906  1514 203657   18483  12329   89.8   2   52
+c 0    5.7   165164    3317   6588  1518 203657   20652  14448   85.5   2   53
+c
+s UNSATISFIABLE
+c
+c 20652 conflicts, 69555 decisions, 46 random
+c 20 iterations, 78 restarts, 0 skipped
+c 2 enlarged, 483 shrunken, 202 rescored, 13 rebiased
+c 3 simplifications, 0 reductions
+c
+c vars: 6588 fixed, 1518 equiv, 203657 elim, 1925 merged
+c elim: 568153 resolutions, 2 phases, 2 rounds
+c sbst: 1% substituted, 2.5% nots, 97.5% ands, 0.0% xors, 0.0% ites
+c arty: 3.00 and 0.00 xor average arity
+c prbe: 11960 probed, 12 phases, 1 rounds
+c prbe: 18 failed, 1 lifted, 0 merged
+c sccs: 20 non trivial, 0 fixed, 20 merged
+c hash: 2 units, 1905 merged
+c mins: 1500972 learned, 15% deleted, 10 strong, 29 depth
+c subs: 2253 forward, 2513 backward, 12022 doms
+c strs: 5397 forward, 8 backward
+c doms: 22262 dominators, 11836 high, 74 low
+c prps: 14430447 propagations, 2.54 megaprops
+c
+c 5.7 seconds, 62 MB max, 10 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 233188 158418'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 0       5 MB
+c sizeof     orgs[0] = 16   alignment = 0       4 MB
+c sizeof     occs[0] = 16   alignment = 0       4 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       2 MB
+c
+c starting search after 0.2 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.2   144492  230618    764  1806      0       0      0    0.0   0   41
+c s    1.1   104680    5914   4672  1448 221154       0      0    0.0   0   42
+c l    1.1   104680    5914   4672  1448 221154       0  17517    0.0   0   42
+c R    1.1   104965    5914   4672  1448 221154     100    100   48.6   2   42
+c R    1.2   106389    5813   4757  1464 221154     495    479  137.2   3   43
+c B    1.2   108112    5780   4790  1464 221154    1000    953  144.9   4   43
+c B    1.4   110690    5690   4859  1485 221154    2000   1926  123.7   1   44
+c R    1.6   125714    5689   4859  1486 221154    2552   2446  121.7   2   46
+c R    2.2   139460    5614   4918  1502 221154    5565   5375  114.4   3   49
+c s    2.4   130546    5614   4918  1502 221154    5626   5322  113.6   2   47
+c -    2.4   130546    5614   4918  1502 221154    5626  15415  113.6   2   47
+c B    2.9   137558    5605   4918  1511 221154    8005   7613  121.6   3   49
+c R    3.3   143820    5566   4918  1550 221154    9581   9163  124.6   4   51
+c s    4.8   160598    5399   4918  1574 221297   13574   6728  123.2   2   51
+c +    5.1   162718    5399   4918  1574 221297   15418  16956  122.6   1   53
+c R    5.8   167615    5399   4918  1574 221297   19215  12251  116.7   2   55
+c +    5.8   167665    5399   4918  1574 221297   19270  18651  116.4   1   55
+c B    6.8   179125    5399   4918  1574 221297   24014  16989  110.1   2   58
+c +    6.8   179216    5399   4918  1574 221297   24088  20516  109.8   2   58
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c s    7.2   184535    5399   4918  1574 221297   25045  17640  108.4   1   58
+c +    8.4   201104    5399   4918  1574 221297   30117  22567  102.4   1   61
+c 0    8.8   206461    3852   6461  1578 221297   31876  22240   99.5   1   62
+c
+s UNSATISFIABLE
+c
+c 31876 conflicts, 107031 decisions, 74 random
+c 17 iterations, 122 restarts, 0 skipped
+c 4 enlarged, 506 shrunken, 311 rescored, 14 rebiased
+c 4 simplifications, 0 reductions
+c
+c vars: 6461 fixed, 1578 equiv, 221297 elim, 1992 merged
+c elim: 619316 resolutions, 2 phases, 2 rounds
+c sbst: 1% substituted, 2.4% nots, 97.6% ands, 0.0% xors, 0.0% ites
+c arty: 2.97 and 0.00 xor average arity
+c prbe: 14185 probed, 18 phases, 1 rounds
+c prbe: 5 failed, 0 lifted, 0 merged
+c sccs: 32 non trivial, 0 fixed, 32 merged
+c hash: 17 units, 1960 merged
+c mins: 2705554 learned, 18% deleted, 19 strong, 32 depth
+c subs: 2091 forward, 2855 backward, 14253 doms
+c strs: 5804 forward, 9 backward
+c doms: 25498 dominators, 14200 high, 68 low
+c prps: 21673592 propagations, 2.47 megaprops
+c
+c 8.8 seconds, 68 MB max, 13 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 252036 165497'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 0       6 MB
+c sizeof     orgs[0] = 16   alignment = 0       4 MB
+c sizeof     occs[0] = 16   alignment = 0       4 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       2 MB
+c
+c starting search after 0.2 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.3   151571  249394    764  1878      0       0      0    0.0   0   44
+c s    1.2   115540    6321   4672  1512 239531       0      0    0.0   0   45
+c l    1.2   115540    6321   4672  1512 239531       0  19013    0.0   0   45
+c R    1.2   116087    6321   4672  1512 239531     100    100   68.4   2   45
+c R    1.2   116596    6321   4672  1512 239531     203    203  195.3   2   45
+c B    1.3   118317    6187   4793  1525 239531    1000    946  132.3   1   46
+c R    1.4   119708    6182   4793  1530 239531    1699   1626  125.7   5   46
+c B    1.5   119830    6182   4793  1530 239531    2002   1926  122.6   3   47
+c s    2.9   152008    6020   4922  1563 239531    7970   7516  115.2   3   53
+c -    2.9   152008    6020   4922  1563 239531    7970  16922  115.2   3   53
+c B    2.9   152071    6020   4922  1563 239531    8007   7553  114.8   2   53
+c R    3.2   156810    6020   4922  1563 239531    9242   8783  109.9   2   54
+c R    4.0   162973    5976   4922  1607 239531   13261  12729  107.1   2   57
+c +    5.0   186344    5959   4922  1624 239531   16923  18614  101.5   2   61
+c s    5.8   185718    5788   4922  1642 239684   17308   8106  101.0   2   55
+c -    5.8   185718    5788   4922  1642 239684   17308  18428  101.0   2   55
+c +    6.4   190002    5788   4922  1642 239684   20941  20270   99.2   2   57
+c R    6.9   198313    5788   4922  1642 239684   22885  13608   97.8   2   59
+c B    7.1   199060    5788   4922  1642 239684   24015  14716   96.0   2   59
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c +    7.6   208514    5788   4922  1642 239684   26176  22297   92.6   1   61
+c s    8.4   218456    5788   4922  1642 239684   29731  20032   93.4   2   62
+c +    9.1   227236    5788   4922  1642 239684   32720  24526   91.0   2   65
+c +   11.4   267272    5684   5023  1645 239684   40900  26978   83.9   1   69
+c 0   11.5   269152    3708   7001  1643 239684   41139  24768   83.7   1   69
+c
+s UNSATISFIABLE
+c
+c 41139 conflicts, 139191 decisions, 99 random
+c 17 iterations, 176 restarts, 0 skipped
+c 5 enlarged, 535 shrunken, 402 rescored, 21 rebiased
+c 4 simplifications, 0 reductions
+c
+c vars: 7001 fixed, 1643 equiv, 239684 elim, 2087 merged
+c elim: 665726 resolutions, 2 phases, 2 rounds
+c sbst: 1% substituted, 2.2% nots, 97.8% ands, 0.0% xors, 0.0% ites
+c arty: 2.97 and 0.00 xor average arity
+c prbe: 16010 probed, 23 phases, 1 rounds
+c prbe: 30 failed, 8 lifted, 0 merged
+c sccs: 36 non trivial, 0 fixed, 36 merged
+c hash: 76 units, 2051 merged
+c mins: 3038362 learned, 24% deleted, 19 strong, 35 depth
+c subs: 2261 forward, 3064 backward, 24270 doms
+c strs: 6006 forward, 14 backward
+c doms: 37415 dominators, 24941 high, 137 low
+c prps: 27777862 propagations, 2.42 megaprops
+c
+c 11.5 seconds, 74 MB max, 15 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 271624 172576'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 8       6 MB
+c sizeof     orgs[0] = 16   alignment = 0       4 MB
+c sizeof     occs[0] = 16   alignment = 0       4 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       2 MB
+c
+c starting search after 0.2 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.3   158650  268910    764  1950      0       0      0    0.0   0   49
+c s    1.3   126625    6723   4672  1584 258645       0      0    0.0   0   56
+c l    1.3   126625    6723   4672  1584 258645       0  20573    0.0   0   56
+c R    1.3   127095    6723   4672  1584 258645     100    100   79.0   2   56
+c R    1.3   127606    6723   4672  1584 258645     200    198  158.1   5   56
+c B    1.5   130378    6657   4737  1585 258645    1001    973  169.4   1   57
+c B    1.8   142290    6540   4838  1601 258645    2001   1930  145.1   3   59
+c R    1.9   143037    6540   4838  1601 258645    2593   2506  144.8   6   59
+c R    2.3   167735    6540   4838  1601 258645    4201   4051  131.7   2   64
+c B    2.9   181507    6424   4922  1633 258645    8007   7744  123.8   4   67
+c s    3.1   168353    6424   4922  1633 258645    8072   7698  123.8   2   65
+c -    3.1   168353    6424   4922  1633 258645    8072  18722  123.8   2   65
+c R    4.4   188217    6417   4922  1640 258645   13451  12972  120.7   4   71
+c s    6.1   214982    6237   4922  1684 258781   17505   8165  118.1   2   68
+c -    6.1   214982    6237   4922  1684 258781   17505  18535  118.1   2   68
+c +    6.4   224330    6221   4922  1700 258781   18535  20388  116.7   2   70
+c R    7.4   230564    6221   4922  1700 258781   23085  13674  114.7   2   73
+c +    7.4   230655    6221   4922  1700 258781   23166  22426  114.5   2   73
+c B    7.6   231081    6221   4922  1700 258781   24011  14586  114.8   3   73
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c +    8.7   246108    6221   4922  1700 258781   28956  24668  111.4   2   78
+c s   10.1   247483    6197   4922  1700 258805   31667  21323  109.3   1   77
+c -   10.1   247483    6197   4922  1700 258805   31667  24422  109.3   1   77
+c +   11.3   266160    6197   4922  1700 258805   35834  26864  104.8   1   82
+c +   13.9   290858    6197   4922  1700 258805   44790  29550   99.2   2   91
+c R   14.2   297586    6197   4922  1700 258805   45563  27689   98.7   1   92
+c s   15.2   299083    6197   4922  1700 258805   47266  29065   97.3   1   89
+c +   18.4   324567    6197   4922  1700 258805   55986  32505   93.3   2   94
+c s   20.7   335678    6197   4922  1700 258805   61404  32358   92.5   1   93
+c B   21.8   339802    6197   4922  1700 258805   64026  32566   91.1   2   95
+c +   24.2   364026    6197   4922  1700 258805   69980  35755   89.0   1   97
+c 0   25.5   388466    3363   7756  1700 258805   72989  35495   87.5   1  101
+c
+s UNSATISFIABLE
+c
+c 72989 conflicts, 229916 decisions, 126 random
+c 19 iterations, 245 restarts, 0 skipped
+c 7 enlarged, 562 shrunken, 713 rescored, 30 rebiased
+c 6 simplifications, 0 reductions
+c
+c vars: 7756 fixed, 1700 equiv, 258805 elim, 2116 merged
+c elim: 954401 resolutions, 3 phases, 3 rounds
+c sbst: 1% substituted, 2.1% nots, 97.9% ands, 0.0% xors, 0.0% ites
+c arty: 2.95 and 0.00 xor average arity
+c prbe: 22620 probed, 50 phases, 1 rounds
+c prbe: 10 failed, 0 lifted, 2 merged
+c sccs: 36 non trivial, 0 fixed, 36 merged
+c hash: 12 units, 2078 merged
+c mins: 6965182 learned, 23% deleted, 8 strong, 27 depth
+c subs: 2771 forward, 3247 backward, 18970 doms
+c strs: 5889 forward, 18 backward
+c doms: 35372 dominators, 20924 high, 123 low
+c prps: 57398207 propagations, 2.25 megaprops
+c
+c 25.5 seconds, 101 MB max, 26 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 291952 179655'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 16      7 MB
+c sizeof     orgs[0] = 16   alignment = 0       4 MB
+c sizeof     occs[0] = 16   alignment = 0       4 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       2 MB
+c
+c starting search after 0.3 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.3   165729  289166    764  2022      0       0      0    0.0   0   51
+c s    1.4   138471    7122   4672  1656 278502       0      0    0.0   0   59
+c l    1.4   138471    7122   4672  1656 278502       0  22000    0.0   0   59
+c R    1.4   138980    7122   4672  1656 278502     102    102   63.7   1   59
+c R    1.4   139490    7121   4672  1657 278502     203    198   86.1   2   59
+c R    1.6   141462    7121   4672  1657 278502     805    794  120.8   1   60
+c B    1.6   141516    7121   4672  1657 278502    1003    991  153.8   3   61
+c B    1.9   151663    7008   4778  1664 278502    2003   1941  178.9   2   62
+c s    3.1   187216    6837   4922  1691 278502    5361   5207  150.7   2   68
+c -    3.1   187216    6837   4922  1691 278502    5361  19580  150.7   2   68
+c R    3.1   187239    6837   4922  1691 278502    5438   5280  153.7   2   68
+c B    3.5   188212    6836   4922  1692 278502    8007   7793  163.1   2   69
+c R    3.7   193755    6834   4922  1694 278502    9455   9190  155.7   1   71
+c s    6.4   226832    6623   4922  1759 278648   16986   9551  162.7   2   72
+c R    7.0   236667    6612   4922  1770 278648   19086  11626  165.1   3   75
+c +    7.0   236728    6612   4922  1770 278648   19580  21538  163.7   3   76
+c B    8.1   240957    6612   4922  1770 278648   24022  16501  155.0   2   79
+c +    8.3   242839    6612   4922  1770 278648   24475  23691  154.8   1   80
+c +    9.6   252771    6612   4922  1770 278648   30591  26060  147.9   2   84
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c s   11.0   256436    6604   4922  1770 278656   33380  25409  147.9   2   84
+c +   12.4   278119    6604   4922  1770 278656   38235  28666  143.3   2   88
+c R   13.3   288572    6604   4922  1770 278656   41559  28718  138.6   3   94
+c +   15.4   302333    6604   4922  1770 278656   47796  31532  133.2   1   95
+c s   16.0   304974    6604   4922  1770 278656   48525  29060  132.6   2   92
+c +   19.7   337121    6604   4922  1770 278656   59745  34685  126.6   1   99
+c B   21.2   348556    6604   4922  1770 278656   64052  34701  124.4   1  102
+c s   22.2   352000    6604   4922  1770 278656   65700  34429  123.2   2   98
+c +   25.6   375079    6604   4922  1770 278656   74681  38153  118.9   1  103
+c s   29.6   394240    6558   4923  1770 278701   81185  32190  115.4   1   98
+c 0   32.3   460617    3111   8360  1780 278701   86817  37789  113.2   1  109
+c
+s UNSATISFIABLE
+c
+c 86817 conflicts, 307653 decisions, 175 random
+c 15 iterations, 301 restarts, 0 skipped
+c 7 enlarged, 521 shrunken, 849 rescored, 36 rebiased
+c 7 simplifications, 0 reductions
+c
+c vars: 8360 fixed, 1780 equiv, 278701 elim, 2202 merged
+c elim: 1033981 resolutions, 4 phases, 3 rounds
+c sbst: 1% substituted, 2.0% nots, 98.0% ands, 0.0% xors, 0.0% ites
+c arty: 2.94 and 0.00 xor average arity
+c prbe: 26948 probed, 59 phases, 2 rounds
+c prbe: 133 failed, 102 lifted, 16 merged
+c sccs: 36 non trivial, 0 fixed, 36 merged
+c hash: 17 units, 2150 merged
+c mins: 9394384 learned, 23% deleted, 17 strong, 30 depth
+c subs: 2592 forward, 2917 backward, 17396 doms
+c strs: 6212 forward, 19 backward
+c doms: 40496 dominators, 20068 high, 218 low
+c prps: 69317502 propagations, 2.15 megaprops
+c
+c 32.3 seconds, 111 MB max, 35 MB recycled
+c
+c reading CNF_9607
+c found header 'p cnf 313020 186734'
+c finished parsing
+c
+c --check=0 --verbose=0 --order=3 --simprd=40 --merge=1 --hash=1
+c --dominate=1 --restart=1 --restartint=100 --rebias=1 --rebiasint=1000
+c --probe=1 --probeint=100000 --probeprd=10 --decompose=1 --minimize=3
+c --maxdepth=1000 --strength=10 --elim=1 --elimint=300000 --elimprd=20
+c --subst=1 --ands=1 --xors=1 --ites=1 --minlimit=1000 --maxlimit=10000000
+c --random=1 --spread=2000 --seed=0 --skip=25
+c
+c sizeof     vars[0] = 24   alignment = 0       7 MB
+c sizeof     orgs[0] = 16   alignment = 0       5 MB
+c sizeof     occs[0] = 16   alignment = 0       5 MB
+c sizeof iirfs[0..1] =  8   alignment = 0       2 MB
+c
+c starting search after 0.3 seconds
+c no decision limit
+c
+c       original/binary      fixed     eliminated      learned       agility
+c   seconds        variables     equivalent    conflicts       height       MB
+c
+c *    0.3   172808  310162    764  2094      0       0      0    0.0   0   54
+c s    1.5   145910    7524   4672  1728 299096       0      0    0.0   0   62
+c l    1.5   145910    7524   4672  1728 299096       0  23560    0.0   0   62
+c R    1.5   146392    7524   4672  1728 299096     100    100   69.7   1   62
+c R    1.5   146914    7524   4672  1728 299096     200    199  147.4   4   62
+c B    1.7   149130    7491   4704  1729 299096    1000    953  175.5   1   63
+c B    2.1   185645    7443   4752  1729 299096    2000   1913  165.3   2   69
+c R    2.4   205011    7244   4920  1760 299096    3353   3221  157.5   1   71
+c R    2.7   210714    7231   4920  1773 299096    4962   4771  173.8   3   72
+c s    3.5   211033    7223   4922  1779 299096    7812   7350  175.4   1   72
+c -    3.5   211033    7223   4922  1779 299096    7812  21204  175.4   1   72
+c B    3.5   211283    7223   4922  1779 299096    8002   7533  175.5   2   73
+c R    4.5   221204    7222   4922  1780 299096   12726  12135  163.0   3   77
+c +    6.6   274492    7172   4922  1830 299096   21204  23324  176.4   2   87
+c s    7.5   267580    7019   4922  1830 299249   21463  11680  175.9   1   78
+c R    7.6   268531    7019   4922  1830 299249   22353  12548  175.5   2   79
+c B    8.3   293871    7006   4922  1843 299249   24022  14196  170.8   2   86
+c +    8.8   299474    7006   4922  1843 299249   26509  25656  165.1   1   88
+c 1    9.7   305797    7006   4922  1843 299249   29974  20057  160.2   0   95
+c
+s SATISFIABLE
+v
+v 0
+c
+c 29974 conflicts, 132017 decisions, 93 random
+c 13 iterations, 122 restarts, 0 skipped
+c 2 enlarged, 515 shrunken, 293 rescored, 14 rebiased
+c 3 simplifications, 0 reductions
+c
+c vars: 4922 fixed, 1843 equiv, 299249 elim, 2257 merged
+c elim: 763257 resolutions, 2 phases, 1 rounds
+c sbst: 1% substituted, 1.9% nots, 98.1% ands, 0.0% xors, 0.0% ites
+c arty: 2.93 and 0.00 xor average arity
+c prbe: 14874 probed, 16 phases, 1 rounds
+c prbe: 0 failed, 0 lifted, 0 merged
+c sccs: 36 non trivial, 0 fixed, 36 merged
+c hash: 1 units, 2221 merged
+c mins: 3440611 learned, 14% deleted, 7 strong, 27 depth
+c subs: 2049 forward, 3050 backward, 13378 doms
+c strs: 5814 forward, 7 backward
+c doms: 26617 dominators, 13623 high, 27 low
+c prps: 20641800 propagations, 2.11 megaprops
+c
+c 9.8 seconds, 102 MB max, 16 MB recycled
+on...                47970
+Encoding transitions => actions...      57810
+Transition Mutex...                     62310
+Encoding required action mutexes...     128635
+Encoding self-mutexes...                138379
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 26
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                50490
+Encoding transitions => actions...      60740
+Transition Mutex...                     65420
+Encoding required action mutexes...     134398
+Encoding self-mutexes...                144594
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 27
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                53010
+Encoding transitions => actions...      63670
+Transition Mutex...                     68530
+Encoding required action mutexes...     140161
+Encoding self-mutexes...                150809
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 28
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                55530
+Encoding transitions => actions...      66600
+Transition Mutex...                     71640
+Encoding required action mutexes...     145924
+Encoding self-mutexes...                157024
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 29
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                58050
+Encoding transitions => actions...      69530
+Transition Mutex...                     74750
+Encoding required action mutexes...     151687
+Encoding self-mutexes...                163239
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: False
+Solving with make span: 30
+Encoding init,...                       0
+Encoding goal...                        62
+Actions => transitions...               66
+Transition Regression...                60570
+Encoding transitions => actions...      72460
+Transition Mutex...                     77860
+Encoding required action mutexes...     157450
+Encoding self-mutexes...                169454
+Done with encoding. Now solve it....
+ulimit -t 3600; ./precosat CNF_9607 sat.result9607
+Solving Done: True
+Decoding for total time layer  30
+2 1 1 2 0 3 1 1 1 2 1 2 1 2 1 0 1 1 1 1 1 0 2 0 1 1 0 0 0 0
+Make Span: 30
+Time Spent : 126.587754
+Var: 313020
+Clause: 186734
+Found a plan
+Time Span: 30
+0:(enter_lift floor1 lift1 elec2) [2]
+0:(enter_room floor1 room1d elec1) [2]
+1:(move_lift floor1 floor2 lift1) [2]
+2:(light_match match1 elec1 room1d) [8]
+3:(move_lift floor1 floor2 lift2) [2]
+3:(move_lift floor2 floor3 lift1) [2]
+5:(exit_lift floor3 lift1 elec2) [2]
+5:(mend_fuse fuse3 match1 room1d elec1) [5]
+5:(move_lift floor2 floor3 lift2) [2]
+6:(move_lift floor3 floor2 lift1) [2]
+7:(move_lift floor3 floor2 lift2) [2]
+8:(enter_room floor3 room3b elec2) [2]
+9:(exit_room floor1 room1d elec1) [2]
+9:(move_lift floor2 floor1 lift1) [2]
+10:(light_match match3 elec2 room3b) [8]
+11:(enter_lift floor1 lift1 elec1) [2]
+11:(move_lift floor2 floor3 lift2) [2]
+12:(move_lift floor1 floor2 lift1) [2]
+13:(mend_fuse fuse1 match3 room3b elec2) [5]
+13:(move_lift floor3 floor4 lift2) [2]
+14:(move_lift floor2 floor3 lift1) [2]
+16:(move_lift floor3 floor4 lift1) [2]
+17:(exit_room floor3 room3b elec2) [2]
+18:(exit_lift floor4 lift1 elec1) [2]
+19:(enter_room floor3 room3d elec2) [2]
+20:(enter_room floor4 room4b elec1) [2]
+22:(light_match match2 elec2 room3d) [8]
+22:(light_match match4 elec1 room4b) [8]
+24:(mend_fuse fuse2 match4 room4b elec1) [5]
+25:(mend_fuse fuse4 match2 room3d elec2) [5]
