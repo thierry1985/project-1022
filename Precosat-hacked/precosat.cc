@@ -12,7 +12,7 @@ extern "C" {
 #include <sys/time.h>
 #include <sys/resource.h>
 #include <sys/unistd.h>
-#include <malloc/malloc.h>
+#include <malloc.h>
 };
 
 #ifndef NLOGPRECO

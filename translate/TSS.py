@@ -221,6 +221,7 @@ if __name__ == "__main__":
     econ = TemporalSaseEncoding.TemporalSaseEncoding(task)
     SOLVE_BOUND = 200
     while make_span < SOLVE_BOUND:
+        print "c ============= solve with makespan %d =======================" % make_span
         plan = econ.solve_decision(task,make_span)
         if len(plan)!=0:
             print "Found a plan"
